@@ -1,0 +1,5 @@
+@mixin font($font-f, $font-s, $font-c) {
+  font-family: $font-f, sans-serif;
+  font-size: $font-s;
+  color: $font-c;
+}

@@ -1,0 +1,77 @@
+@import 'fonts';
+@import 'mixins';
+.container__title-{
+  display: none;
+}
+.wrapper{
+  width: 1440px;
+  height: 3398px;
+  margin: 0 auto;
+  background-color: #aaa;
+}
+.header{
+  height: 700px;
+  background-color: #aaa;
+  background-image: url('../img/header-background-img.png');
+  position: relative;
+  overflow: hidden;
+}
+.header__title{
+  width: 180px;
+  @include font('Montserrat Bold', 20px, #fff);
+  margin-top: 46px;
+  margin-left: 251px;
+  letter-spacing: 1px;
+  float: left;
+}
+.header__auth{
+  width: 200px;
+  margin-top: 38px;
+  margin-right: 221px;
+  position: relative;
+  overflow: hidden;
+  float: right;
+}
+.header__link{
+  display: block;
+  box-sizing: border-box;
+  height: 36px;
+  padding: 0 17px;
+  float: left;
+  border-radius: 20px;
+  border: 2px solid transparent;
+  @include font('Montserrat Bold', 14px, #fff);
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  line-height: 33px;
+}
+.active{
+  border: 2px solid #fff;
+}
+.header__container{
+  position: relative;
+  overflow: hidden;
+  margin-top: 215px;
+  text-align: center;
+}
+.container__title{
+  width: 595px;
+  margin: 0 auto;
+  @include font('Montserrat Bold', 52px, #fff);
+  line-height: 62px;
+}
+.container__txt{
+  margin: 28px auto;
+  @include font('Roboto Light', 24px, #fff);
+  line-height: 20px;
+  opacity: 0.75;
+}
+.header__link--{
+  width: 223px;
+  height: 40px;
+  margin-left: 610px;
+  margin-top: 11px;
+  background-color: #ff4e50;
+  line-height: 36px;
+}
