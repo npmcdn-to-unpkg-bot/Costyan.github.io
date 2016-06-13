@@ -20,6 +20,9 @@
   margin: 0;
   padding: 0; }
 
+a {
+  text-decoration: none; }
+
 .container__title- {
   display: none; }
 
@@ -194,3 +197,53 @@
   position: absolute;
   top: 153px;
   left: 250px; }
+
+.partners {
+  width: 970px;
+  height: 372px;
+  margin: 95px auto 0; }
+  .partners__title {
+    width: 402px;
+    margin: 0 auto 32px;
+    font-family: "Montserrat Bold", sans-serif;
+    font-size: 22px;
+    color: #333; }
+  .partners__list {
+    position: relative;
+    overflow: hidden; }
+
+.partner {
+  width: 220px;
+  margin-left: 17px;
+  margin-right: 3px;
+  float: left;
+  text-align: center; }
+  .partner__photo {
+    margin-bottom: 10px;
+    margin-left: 4px; }
+  .partner__name {
+    margin-bottom: 16px;
+    font-family: "Montserrat Bold", sans-serif;
+    font-size: 14px;
+    color: #333;
+    line-height: 14px; }
+  .partner__describe {
+    font-family: "Roboto Light", sans-serif;
+    font-size: 14px;
+    color: #666;
+    line-height: 16px; }
+
+.partners__other {
+  display: block;
+  width: 192px;
+  height: 40px;
+  margin: 39px auto 0;
+  clear: both;
+  font-family: "Montserrat Bold", sans-serif;
+  font-size: 14px;
+  color: #ff4e50;
+  text-align: center;
+  line-height: 34px;
+  border: 2px solid #ff4e50;
+  border-radius: 23px;
+  box-sizing: border-box; }
