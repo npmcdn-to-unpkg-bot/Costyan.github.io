@@ -1,0 +1,22 @@
+.row-1 {
+	width: 870px;
+	margin: 20px auto;
+	font-size: 140px;
+	font-weight: bold;
+	border: 5px solid #000;
+	border-radius: 25px;
+}
+
+.row-2 {
+	margin-top: 50px;
+}
+.btn-my {
+	width: 50%;
+	margin-right: 25%;
+	font-size: 70px;
+	float: right;
+}
+
+.btn-hide {
+	display: none;
+}
