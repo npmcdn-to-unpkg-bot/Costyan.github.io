@@ -1,0 +1,26 @@
+.plugin {
+  text-align: center;
+}
+.myCarousel{
+  position: relative;
+  overflow: hidden;
+}
+
+.myC__photo {
+  position: absolute;
+}
+
+.templateTest {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.fio-head {
+  text-align: center;
+}
+
+.position {
+  padding-left: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #000;
+}
