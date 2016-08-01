@@ -1,0 +1,657 @@
+@import 'fonts';
+@import 'mixins';
+/////////////////// CSS for width 1440px ///////////////////////////////////////
+.container__title-{
+  display: none;
+}
+.wrapper{
+  width: 1440px;
+  height: 3398px;
+  margin: 0 auto;
+}
+.header{
+  height: 700px;
+  background-color: #aaa;
+  background-image: url('../img/header-background-img.png');
+  position: relative;
+  overflow: hidden;
+}
+.header__title{
+  width: 180px;
+  @include font('Montserrat Bold', 20px, #fff);
+  margin-top: 46px;
+  margin-left: 251px;
+  letter-spacing: 1px;
+  float: left;
+}
+.header__auth{
+  width: 200px;
+  margin-top: 38px;
+  margin-right: 221px;
+  position: relative;
+  overflow: hidden;
+  float: right;
+}
+.header__link{
+  display: block;
+  box-sizing: border-box;
+  height: 36px;
+  padding: 0 17px;
+  float: left;
+  border-radius: 20px;
+  border: 2px solid transparent;
+  @include font('Montserrat Bold', 14px, #fff);
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  line-height: 33px;
+}
+.active{
+  border: 2px solid #fff;
+}
+.header__container{
+  position: relative;
+  overflow: hidden;
+  margin-top: 215px;
+  text-align: center;
+}
+.container__title{
+  width: 595px;
+  margin: 0 auto;
+  @include font('Montserrat Bold', 52px, #fff);
+  line-height: 62px;
+}
+.container__txt{
+  margin: 28px auto;
+  @include font('Roboto Light', 24px, #fff);
+  line-height: 20px;
+  opacity: 0.75;
+}
+.header__link--{
+  width: 223px;
+  height: 40px;
+  margin-left: 610px;
+  margin-top: 11px;
+  background-color: #ff4e50;
+  line-height: 36px;
+}
+.sliders{
+  width: 960px;
+  height: 555px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+.sliders__title{
+  width: 288px;
+  margin: 94px auto 34px;
+  @include font('Montserrat Bold', 22px, #333);
+}
+.show-slider{
+  width: 300px;
+  height: 400px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+  float: left;
+}
+.slider{
+  width: 900px;
+  position: relative;
+  list-style: none;
+  margin: 0;
+  padding: 0
+}
+.slider li{
+  float: left;
+}
+.step{
+  width: 300px;
+  height: 400px;
+  position: relative;
+  overflow: hidden;
+  float: left;
+  &__num{
+    width: 70px;
+    height: 20px;
+    margin: 229px 0 15px 20px;
+    padding-left: 3px;
+    @include font('Montserrat Regular', 10px, #fff);
+    text-align: center;
+    line-height: 21px;
+    letter-spacing: 2px;
+    border-radius: 20px;
+    background-color: #ff4e50;
+    &--{
+      margin-top: 259px;
+    }
+  }
+  &__title{
+    margin-left: 20px;
+    margin-bottom: 11px;
+    @include font('Montserrat Bold', 24px, #fff);
+  }
+  &__txt{
+    width: 265px;
+    margin-left: 20px;
+    @include font('Roboto Light', 15px, #ccc);
+    line-height: 17px;
+    letter-spacing: -0.45px;
+  }
+}
+.step1{
+  background-image: url('../img/1440-1.png');
+}
+.step2{
+  background-image: url('../img/1440-2.png');
+}
+.step3{
+  background-image: url('../img/1440-3.png');
+  }
+.control-prev{
+  position: absolute;
+  top: 153px;
+  left: 21px;
+}
+.control-next{
+  position: absolute;
+  top: 153px;
+  left: 250px;
+}
+.partners{
+  width: 970px;
+  height: 372px;
+  margin: 95px auto 0;
+  &__title{
+    width: 402px;
+    margin: 0 auto 32px;
+    @include font('Montserrat Bold', 22px, #333);
+  }
+  &__list{
+    position: relative;
+    overflow: hidden;
+  }
+}
+.partner{
+  width: 220px;
+  margin-left: 17px;
+  margin-right: 3px;
+  float: left;
+  text-align: center;
+  &__photo{
+    margin-bottom: 10px;
+    margin-left: 4px;
+    }
+  &__name{
+    margin-bottom: 16px;
+    @include font('Montserrat Bold', 14px, #333);
+    line-height: 14px;
+  }
+  &__describe{
+    @include font('Roboto Light', 14px, #666);
+    line-height: 16px;
+  }
+}
+.partners__other{
+  display: block;
+  width: 192px;
+  height: 40px;
+  margin: 39px auto 0;
+  clear: both;
+  @include font('Montserrat Bold', 14px, #ff4e50);
+  text-align: center;
+  line-height: 34px;
+  border: 2px solid #ff4e50;
+  border-radius: 23px;
+  box-sizing: border-box;
+}
+.mosaic{
+  width: 960px;
+  height: 1345px;
+  margin: 95px auto 0;
+  &__title{
+    margin-bottom: 35px;
+    text-align: center;
+    @include font('Montserrat Bold', 22px, #333);
+    line-height: 25px;
+  }
+  &__images{
+    width: 960px;
+    margin: 0 auto;
+    padding-left: 10px;
+    margin-bottom: 76px;
+  }
+  &__image{
+    width: 300px;
+    height: 310px;
+    margin-bottom: 20px;
+    @include font('Montserrat Bold', 20px, #fff);
+    text-align: center;
+    line-height: 310px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    &--l{
+      width: 620px;
+    }
+  }
+  &__search{
+    &__txt{
+      width: 279px;
+      margin: -1px auto 0;
+      @include font('Roboto Light', 18px, #333);
+      line-height: 20px;
+    }
+    &__input{
+      width: 237px;
+      height: 37px;
+      margin-top: 39px;
+      margin-left: 275px;
+      float: left;
+      @include font('Roboto Light', 14px, #999);
+      line-height: 36px;
+      outline: none;
+      border-style: groove;
+      border-radius: 5px;
+      text-indent: 14px;
+    }
+    &__btn{
+      display: block;
+      width: 160px;
+      height: 40px;
+      margin: 39px 9px;
+      float: left;
+      text-align: center;
+      @include font('Montserrat Bold', 14px, #fff);
+      line-height: 40px;
+      background-color: #ff4e50;
+      border-radius: 20px;
+    }
+  }
+}
+.footer{
+  width: 100%;
+  height: 193px;
+  margin-top: 39px;
+  box-sizing: border-box;
+  border-top: 4px solid #ff4e50;
+  &__title{
+    width: 150px;
+    float: left;
+    margin-top: 38px;
+    margin-left: 250px;
+    letter-spacing: 1px;
+    @include font('Montserrat Bold', 16px, #ff4e50);
+    line-height: 16px;
+  }
+  &__company{
+    margin-top: 38px;
+    margin-left: 91px;
+    float: left;
+  }
+  &__menu-title{
+    display: block;
+    margin-bottom: 11px;
+    @include font('Montserrat Bold', 14px, #333);
+    line-height: 14px;
+  }
+  &__menu{
+    margin-bottom: 14px;
+    list-style: none;
+    // &__item{
+    // }
+    &__link{
+      @include font('Roboto Light', 14px, #666);
+      line-height: 24px;
+    }
+  }
+  &__partners{
+    margin-top: 38px;
+    margin-left: 92px;
+    float: left;
+  }
+  &__designed{
+    width: 112px;
+    margin-top: 39px;
+    margin-left: 371px;
+    float: left;
+    @include font('Montserrat Bold', 10px, #ccc);
+    line-height: 10px;
+    letter-spacing: 1px;
+  }
+  &__logo{
+    margin-left: 30px;
+    margin-bottom: 8px;
+    float: left;
+  }
+}
+/////////////////// CSS for width 768px ////////////////////////////////////////
+@media screen and (max-width:  1470px){
+  .wrapper{
+    width: 768px;
+    height: 3658px;
+  }
+  .header{
+    background: url('../img/header-background-img.png') -338px 0 no-repeat;
+  }
+  .header__title{
+    margin-left: 49px;
+  }
+  .header__auth{
+    margin-right: 22px;
+  }
+  .header__container{
+    margin-top: 214px;
+  }
+  .container__title{
+    padding-right: 4px;
+  }
+  .container__txt{
+    padding-right: 3px;
+  }
+  .header__link--{
+    margin-left: 271px;
+    margin-top: 12px;
+  }
+  .sliders{
+    width: 768px;
+  }
+  .sliders__title{
+    padding-left: 8px;
+  }
+  .show-slider{
+    width: 236px;
+  }
+  .step{
+    width: 236px;
+    height: 400px;
+    &__num{
+      margin: 212px 0 15px 19px;
+      &--{
+        margin-top: 258px;
+      }
+    }
+    &__title{
+      margin-left: 19px;
+    }
+    &__txt{
+      width: 180px;
+      margin-left: 19px;
+    }
+  }
+  .step1{
+    background-image: url('../img/768-1.png');
+  }
+  .step2{
+    background-image: url('../img/768-2.png');
+  }
+  .step3{
+    background-image: url('../img/768-3.png');
+  }
+  .control-prev{
+    top: 40px;
+    left: 20px;
+  }
+  .control-next{
+    top: 40px;
+    left: 186px;
+  }
+  .partners{
+    width: 525px;
+    height: 690px;
+    position: relative;
+    overflow: hidden;
+    &__title{
+      padding-top: 1px;
+      padding-right: 4px;
+    }
+  }
+  .partner{
+    margin-left: 25px;
+    margin-right: 11px;
+    margin-bottom: 57px;
+  }
+  .partners__other{
+    margin-top: -20px;
+    margin-left: 163px
+  }
+  .mosaic{
+    width: 768px;
+    height: 1285px;
+    margin-top: 36px;
+    &__images{
+      width: 768px;
+      margin: 0 auto;
+    }
+    &__image{
+      width: 236px;
+      &--l{
+        width: 492px;
+      }
+    }
+    &__search{
+      margin-top: 76px;
+      &__txt{
+        margin: -3px auto 0;
+      }
+      &__input{
+        margin-left: 178px;
+      }
+    }
+  }
+  .footer{
+    margin-top: 97px;
+    &__title{
+      margin-left: 38px;
+    }
+    &__company{
+      margin-left: 78px;
+    }
+    &__partners{
+      margin-left: 104px;
+    }
+    &__designed{
+      margin-left: 121px;
+    }
+  }
+}
+/////////////////// CSS for width 320px ////////////////////////////////////////
+@media screen and (max-width:  793px){
+  .wrapper{
+    width: 320px;
+    height: 3905px;
+  }
+  .header{
+    height: 540px;
+    background: url('../img/header-background-img.png') -418px -9px no-repeat;
+    background-size: auto 550px;
+  }
+  .header__title{
+    display: none;
+  }
+  .header__auth{
+    margin-top: 20px;
+    margin-right: 55px;
+  }
+  .header__container{
+    margin-top: 171px;
+  }
+  .container__title-{
+    display: block;
+    @include font('Montserrat Bold', 20px, #fff);
+    letter-spacing: 1px;
+  }
+  .container__title{
+    width: 325px;
+    margin-top: 29px;
+    @include font('Montserrat Bold', 30px, #fff);
+    line-height: 35px;
+  }
+  .container__txt{
+    width: 225px;
+    margin: 10px auto;
+    padding-left: 5px;
+    @include font('Roboto Light', 18px, #fff);
+    line-height: 20px;
+    opacity: 0.75;
+  }
+  .header__link--{
+    width: 280px;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 8px;
+  }
+  .sliders{
+    width: 320px;
+    height: 815px;
+  }
+  .sliders__title{
+    width: 288px;
+    margin: 34px auto 14px;
+    padding-right: 5px;
+  }
+  .show-slider{
+    width: 300px;
+    height: 240px;
+    margin-bottom: 10px;
+  }
+  .slider li{
+    float: left;
+  }
+  .step{
+    width: 300px;
+    height: 240px;
+    position: relative;
+    overflow: hidden;
+    float: left;
+    &1{
+      background-image: url('../img/320-1.png');
+    }
+    &2{
+      background-image: url('../img/320-2.png');
+    }
+    &3{
+      background-image: url('../img/320-3.png');
+    }
+    &__num{
+      margin: 69px 0 15px 20px;
+      &--{
+        margin-top: 99px;
+      }
+    }
+    &__txt{
+      width: 265px;
+    }
+  }
+  .control-prev{
+    top: 5px;
+    left: 0;
+  }
+  .control-next{
+    top: 5px;
+    left: 270px;
+  }
+  .partners{
+    width: 320px;
+    height: 1061px;
+    margin: 33px auto 0;
+    position: relative;
+    overflow: hidden;
+    &__title{
+      width: 305px;
+      margin: 0 auto 14px;
+      padding-right: 7px;
+      text-align: center;
+    }
+  }
+  .partner{
+    // width: 220px;
+    margin-left: 50px;
+    margin-right: 11px;
+    margin-bottom: 26px;
+  }
+  .partners__other{
+    width: 281px;
+    margin: 4px auto 0;
+    padding-right: 3px;
+    line-height: 37px;
+  }
+  .mosaic{
+    width: 320px;
+    height: 1193px;
+    margin-top: 31px;
+    position: relative;
+    overflow: hidden;
+    &__title{
+      margin-bottom: 14px;
+    }
+    &__images{
+      width: 300px;
+      margin: 0;
+      margin-bottom: 27px;
+    }
+    &__image{
+      width: 300px;
+      height: 121px;
+      margin-bottom: 9px;
+      line-height: 121px;
+    }
+    &__search{
+      margin-top: 28px;
+      &__txt{
+        margin: 0 auto;
+      }
+      &__input{
+        width: 277px;
+        margin-top: 16px;
+        margin-left: 18px;
+      }
+      &__btn{
+        width: 280px;
+        margin: 9px 18px;
+      }
+    }
+  }
+  .footer{
+    margin-top: 38px;
+    text-align: center;
+    &__title{
+      margin-top: 19px;
+      margin-left: 86px;
+    }
+    &__company{
+      margin-top: 14px;
+      margin-left: 57px;
+    }
+    &__menu-title{
+      margin-bottom: 4px;
+    }
+    &__menu{
+      &__item{
+        display: inline-block;
+      }
+      &__link{
+        padding: 5px;
+        line-height: 14px;
+      }
+    }
+    &__partners{
+      clear: both;
+      float: none;
+      margin-bottom: 17px;
+      margin-left: 0;
+    }
+    &__designed{
+      float: none;
+      margin-top: 16px;
+      margin-left: 105px;
+    }
+    &__logo{
+      margin-left: 15px;
+      margin-bottom: 8px;
+    }
+  }
+}

@@ -1,0 +1,47 @@
+@font-face{
+  font-family: 'Ubuntu Medium';
+  src: url("../fonts/Ubuntu-M.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+.clear-storage{
+  text-align: center;
+  margin-bottom: 15px;
+}
+span:hover{
+  cursor: pointer;
+}
+.wrapper{
+  width: 50%;
+  margin: auto;
+}
+.controll{
+  text-align: center;
+}
+.item-list{
+  list-style: none;
+  font-family: 'Ubuntu Medium';
+  font-size: 16px;
+}
+.item{
+  margin-right: 5px;
+}
+.item-input-txt{
+  width: 90%;
+  height: 16px;
+  font-family: 'Ubuntu Medium';
+  font-size: 16px;
+  border: none;
+  outline: none;
+}
+.del-item{
+  margin-left: 5px;
+  float: right;
+}
+.--disable{
+  display: none;
+}
+
+.--done{
+  color: #00cc00;
+}
